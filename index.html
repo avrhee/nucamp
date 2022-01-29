@@ -48,7 +48,7 @@
                     <div class="container-fluid">
                         <form>
                             <div class="form-group row">
-                                <label class="col-sm-6 col-form-label">Number of Campers</label>
+                                <label class="col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
                                 <div class="col-sm">
                                     <select name="numCampers" id="numCampers">
                                         <option>Select...</option>
@@ -70,11 +70,11 @@
                             <div class="form-group row">
                                 <label class="col-sm-6 col-form-label">Campsite Type</label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-success active">Tent
-                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked>
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" value="tent" checked>Tent
                                     </label>
-                                    <label class="btn btn-primary">RV
-                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off">
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="siteType" id="siteRV" autocomplete="off" value="RV">RV
                                     </label>
                                 </div>
                             </div>
